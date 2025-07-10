@@ -9,4 +9,4 @@ Figures: The code produces the cityscapes of Figure 3 on the paper.
 
 Simulation: The code produces the simulation figures of the Appendix, Figure 5.
 
-Error bars: The code produces slighly different error bars than the ones reported in the paper. The full code was written in Julia. The code produces error bars that take into account the finite sampling noise. In the Julia code we also consider the measurement noise and the reported error bars are slightly larger than the ones on this code. We present the results from this code vs the one on Julia.
+Error bars: We use the bootstraping technique to calculate error bars that account for the sampling error.
